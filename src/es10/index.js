@@ -28,3 +28,16 @@ try{
     error
 }
 
+//fromEntries
+
+let entries = [["name", "Angie"], ["age", 23]];
+
+//nos regresa un objeto con clave y valor de cada uno de los arreglos que estan en entries
+console.log(Object.fromEntries(entries));
+
+
+//objeto de tipo simbolo
+
+let mySymbol = "My Symbol";
+let symbol = Symbol(mySymbol);
+console.log(symbol.description);
